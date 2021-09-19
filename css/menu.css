@@ -1,4 +1,4 @@
-menu-bar {
+#menu-bar {
     display: none;
 }
 
@@ -13,9 +13,12 @@ header label {
     position: absolute;
     top: 60px;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-    background: rgba(51,51,51,0.9);
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.97) ;
+   transition: all 0.5s;
+   transform: translateX(-100%);
 }
 
 .menu a{
@@ -25,5 +28,11 @@ header label {
     text-decoration: none;
     padding: 15px;
     padding: 15;
-    border-bottom: 1px solid rgba(255,255,255,0.5);
+    left: 50%;
+    text-align: center;
+   
+}
+
+.menu a:hover {
+    background: rgba(4,4,4,4.3);   
 }
