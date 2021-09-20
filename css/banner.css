@@ -1,0 +1,48 @@
+#banner {
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner img {
+    width: 100%;
+    height: 100%;
+   
+
+
+
+}
+
+header .home{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#banner .contenedor {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ffff;
+    background: black;
+    text-align: center;
+}
+#banner h2 {
+    font-size: 25px;
+}
+
+#banner h3{
+    font-size: 25px;
+    color: #5A91DA;
+}
+
+#banner a {
+    text-decoration: none;
+    color: #ffff;
+    
+}
