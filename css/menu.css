@@ -1,4 +1,4 @@
-#menu-bar {
+/* #menu-bar {
     display: none;
 }
 
@@ -39,4 +39,4 @@ header label {
 
 #menu-bar:checked ~ .menu{
     transform: translateX(0);
-}
+} */
