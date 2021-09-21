@@ -14,9 +14,11 @@ body {
 
 .wrapper {
     width: 100vw;
-    height: 100vh;
-    background: #191c32;
+    height: 100pxvh;
+    background: rgba(0,0,0,.95);
+    /* #191c32 */
     color: #ffff;
+    font-size: 30px;
 }
 
 .navbar {
@@ -29,6 +31,7 @@ body {
 
 .brand span{
     color: #3367D6;
+    font-size:50px;
 }
 
 .menu {
@@ -39,7 +42,8 @@ body {
 
 .menu li {
     list-style: none;
-    padding: 4px;
+    font-size: 30px;
+    padding: 10px;
 }
 
 .menu a {
@@ -57,9 +61,55 @@ body {
 
 }
 
-.info__content h1{
-    color: #3367D6;
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
 }
+
+h1 {
+    
+    color: #ffff;
+    font-size: 3em;
+}
+
+.info__content {
+    margin-left: -100px;
+}
+
+h1 span {
+    color: #3367D6;
+    font-size: 1em;
+}
+
+.download-cv {
+    padding: 10px 20px;
+    background: #3367D6;
+    color: #ffff;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: rgba(50, 72, 192, 0.9);
+}
+
+.download-cv:hover {
+    background: #ffff;
+    color: #141010;
+}
+
+.main img{
+    width: 350px;
+    margin-left: 300px;
+    border-radius: 300px;
+}
+
+
+
+
 
 /* header {
     width: 100%;
