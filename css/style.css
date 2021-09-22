@@ -26,6 +26,7 @@ body {
     justify-content: space-between;
     background: rgba(0,0,0,.9);
     padding: 10px;
+    
 
 }
 
@@ -38,12 +39,14 @@ body {
     display: flex;
     width: 50%;
     justify-content: space-around ;
+    
 }
 
 .menu li {
     list-style: none;
     font-size: 30px;
     padding: 10px;
+   
 }
 
 .menu a {
@@ -106,23 +109,63 @@ h1 span {
     margin-left: 300px;
     border-radius: 300px;
 }
-
-.skills__container div {
+.about__container {
     display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.skills {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-}
-
-.skills div {
-    display: grid;
-    background: cornflowerblue;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 
+.about__description {
+    text-align: left;
+    /* color: #404040; */
+    padding-right: 80px;
+    line-height: 40px;
+    
+
+}
+
+.about__description h2 {
+    margin-top: 20px 0;
+    color: #262626;
+    padding: 90px 80px; 
+    font-size: 60px;
+    
+}
+
+.about__description p{
+    padding: 30px 80px;
+    font-size: 30px;
+}
+
+.skills  {
+   
+    gap: 10px;
+    background: #ffff;
+    grid-auto-rows: 100px;
+    padding-top: 100px;
+    text-align: center;
+   
+}
+
+.skills h2 {
+    text-align: left;
+    margin: 20px 0;
+    font-size: 3em;
+  
+}
+
+.skills__item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+
+
+.skills > div:hover{
+    border: 1px solid yellow;
+}
 
 
 /* header {
